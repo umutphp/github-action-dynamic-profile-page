@@ -5,8 +5,8 @@ GITHUB_REPO="$1"
 USER_EMAIL="$2"
 README_FILE="$3"
 
-CLONE_DIR=$(mktemp -d)
-FOLDER=$(mktemp -d)
+CLONE_DIR=$(mktemp --tmpdir=. -d)
+FOLDER=$(mktemp --tmpdir=. -d)
 
 # Setup git
 git config --global user.email "$USER_EMAIL"
