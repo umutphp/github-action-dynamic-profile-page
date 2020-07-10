@@ -5,8 +5,12 @@ GITHUB_REPO="$1"
 USER_EMAIL="$2"
 README_FILE="$3"
 
+echo "Start the job"
+
 CLONE_DIR=$(mktemp --tmpdir=. -d)
 FOLDER=$(mktemp --tmpdir=. -d)
+
+echo "Start clonning"
 
 # Setup git
 git config --global user.email "$USER_EMAIL"
