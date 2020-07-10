@@ -7,8 +7,8 @@ README_FILE="$3"
 
 echo "Start the job"
 
-CLONE_DIR=$(mktemp --tmpdir=. -d)
-FOLDER=$(mktemp --tmpdir=. -d)
+CLONE_DIR=$(mktemp -p . -d)
+FOLDER=$(mktemp -p . -d)
 
 echo "Start clonning"
 
