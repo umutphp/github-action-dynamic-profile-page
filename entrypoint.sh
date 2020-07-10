@@ -21,7 +21,9 @@ ls -la "$CLONE_DIR"
 
 cd "$CLONE_DIR"
 
-sed "/^<!-- START gadpp -->.*/a $CLONE_DIR" $README_FILE
+sed "/^<!-- START gadpp -->.*/a $CLONE_DIR" $README_FILE > readme_changed.md
+
+mv readme_changed.md $README_FILE
 
 git add .
 git commit --message "Update from https://github.com/$GITHUB_REPOSITORY/commit/$GITHUB_SHA)"
