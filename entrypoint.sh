@@ -9,7 +9,7 @@ echo "Start the job"
 
 CLONE_DIR=$(mktemp -p . -d)
 FOLDER=$(mktemp -p . -d)
-
+GITHUB_TOKEN=$API_TOKEN_GITHUB
 echo "Start clonning"
 
 # Setup git
