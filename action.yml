@@ -1,0 +1,23 @@
+name: 'Push updates to your profile page'
+description: 'Create a line for every commit/release on profile page.'
+inputs:
+  github-username:
+    description: 'Name of the destination username/organization'
+    required: true
+  user-email:
+    description: 'Email for the git commit'
+    required: true
+  readme-file:
+    description: 'The name of the readme file'
+    required: false
+    default: 'README.md'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.github-username }}
+    - ${{ inputs.user-email }}
+    - ${{ inputs.readme-file }}
+branding:
+  icon: 'git-commit'
+  color: 'green'

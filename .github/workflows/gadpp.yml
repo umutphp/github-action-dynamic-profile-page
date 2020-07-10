@@ -1,0 +1,15 @@
+on: [push]
+
+jobs:
+  hello_world_job:
+    runs-on: ubuntu-latest
+    name: Update Home Page
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: GADPP
+        uses: ./
+        id: gadpp
+        with:
+          github-username: 'umutphp'
+          user-email: 'umutphp@gmail.com'
