@@ -23,12 +23,12 @@ ls -la "$CLONE_DIR"
 
 cd "$CLONE_DIR"
 
-INSERTED_LINE="- [$GITHUB_REPOSITORY](https://github.com/$GITHUB_REPOSITORY)\n"
+INSERTED_LINE="- [$GITHUB_REPOSITORY](https://github.com/$GITHUB_REPOSITORY), [$GITHUB_SHA](https://github.com/$GITHUB_REPOSITORY/commit/$GITHUB_SHA)\n"
 
 sed "/^<!-- START gadpp -->.*/a $INSERTED_LINE" $README_FILE > readme_changed.md
 
 mv readme_changed.md $README_FILE
 
 git add .
-git commit --message "Update from https://github.com/$GITHUB_REPOSITORY/commit/$GITHUB_SHA)"
+git commit --message "Update from https://github.com/$GITHUB_REPOSITORY/commit/$GITHUB_SHA"
 git push origin master
