@@ -23,7 +23,9 @@ ls -la "$CLONE_DIR"
 
 cd "$CLONE_DIR"
 
-sed "/^<!-- START gadpp -->.*/a $CLONE_DIR" $README_FILE > readme_changed.md
+REPLACE_LINE="-[$GITHUB_REPOSITORY](https://github.com/$GITHUB_REPOSITORY)"
+
+sed "/^<!-- START gadpp -->.*/a $CLONE_DIR" $REPLACE_LINE > readme_changed.md
 
 mv readme_changed.md $README_FILE
 
