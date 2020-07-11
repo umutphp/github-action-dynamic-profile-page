@@ -23,7 +23,7 @@ ls -la "$CLONE_DIR"
 
 cd "$CLONE_DIR"
 
-INSERTED_LINE="- [$GITHUB_REPOSITORY](https://github.com/$GITHUB_REPOSITORY), [$GITHUB_SHA_SHORT](https://github.com/$GITHUB_REPOSITORY/commit/$GITHUB_SHA)"
+INSERTED_LINE="- [$GITHUB_REPOSITORY](https://github.com/$GITHUB_REPOSITORY), [$GITHUB_REF@$GITHUB_SHA](https://github.com/$GITHUB_REPOSITORY/commit/$GITHUB_SHA)"
 
 sed "/^<!-- START gadpp -->.*/a $INSERTED_LINE" $README_FILE > readme_changed.md
 
