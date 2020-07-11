@@ -1,10 +1,10 @@
 # Dynamic Profile Page On Github
 
-GitHub Action to push subdirectories to separate repositories.
+GitHub Action to push updates to your special profile repo.
 
 ### Why?
 
-GitHub announced a special repo (github_username/github_username) its README.md file will appear on your profile. People liked it a lot and started using some static pages with fancy texts and images. This GitHub action helps you to add a section that is updated dynamically when you commit a repository that uses this action.
+GitHub announced a special repository (github_username/github_username) so that its README.md file will appear on your profile page. People liked it a lot and started using some static pages with fancy texts and images. This GitHub action helps you to add a section that is updated dynamically when you commit a repository that uses this action. Please feel free to fork it or contribute to it.
 
 ## Usage
 
