@@ -9,7 +9,7 @@ echo "Start the job"
 
 CLONE_DIR=$(mktemp -p . -d)
 FOLDER=$(mktemp -p . -d)
-GITHUB_TOKEN=$API_TOKEN_GITHUB
+
 echo "Start clonning"
 
 # Setup git
@@ -17,7 +17,7 @@ git config --global user.email "$USER_EMAIL"
 git config --global user.name "$GITHUB_USERNAME"
 git config --global user.password "$API_TOKEN_GITHUB"
 
-git clone "https://$GITHUB_USERNAME:$API_TOKEN_GITHUB@github.com/$GITHUB_USERNAME/$GITHUB_REPO.git" "$CLONE_DIR"
+git clone "https://$API_TOKEN_GITHUB@github.com/$GITHUB_USERNAME/$GITHUB_REPO.git" "$CLONE_DIR"
 
 ls -la "$CLONE_DIR"
 
