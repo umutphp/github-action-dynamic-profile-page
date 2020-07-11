@@ -4,7 +4,9 @@ GitHub Action to push updates to your special profile repo.
 
 ### Why?
 
-GitHub announced a special repository (github_username/github_username) so that its README.md file will appear on your profile page. People liked it a lot and started using some static pages with fancy texts and images. This GitHub action helps you to add a section that is updated dynamically when you commit a repository that uses this action. Please feel free to fork it or contribute to it.
+GitHub announced a special repository (github_username/github_username) so that its README.md file will appear on your profile page. People liked it a lot and started using some static pages with fancy texts and images. This GitHub action helps you to add a section that is updated dynamically when you commit a repository that uses this action. A line per repository is added to the section and the lines are ordered from the newest to the oldest.
+
+Please feel free to fork it or contribute to it.
 
 ## Usage
 
@@ -28,7 +30,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: GADPP
-        uses: umutphp/github-action-dynamic-profile-page@v1
+        uses: umutphp/github-action-dynamic-profile-page@v2
         id: gadpp
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
