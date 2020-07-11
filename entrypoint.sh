@@ -26,7 +26,7 @@ cd "$CLONE_DIR"
 INSERTED_LINE="- [$GITHUB_REPOSITORY](https://github.com/$GITHUB_REPOSITORY), [$GITHUB_REF@$GITHUB_SHA](https://github.com/$GITHUB_REPOSITORY/commit/$GITHUB_SHA)"
 DELETE_PREFIX="- \[$GITHUB_REPOSITORY\]"
 
-sed "/^$DELETE_PREFIX/d" $README_FILE > readme_changed.md
+sed "/$DELETE_PREFIX/d" $README_FILE > readme_changed.md
 
 mv readme_changed.md $README_FILE
 
