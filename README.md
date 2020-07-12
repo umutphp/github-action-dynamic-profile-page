@@ -1,6 +1,6 @@
 # Dynamic Profile Page On Github
 
-GitHub Action to push updates to your special profile repo.
+A GitHub action to push updates to your special profile repo.
 
 ### Why?
 
@@ -15,7 +15,7 @@ Follow the steps;
 - Add `<!-- START gadpp -->` add the end of the README.md file of the special repo.
 - Create a personal access token [here](https://github.com/settings/tokens) and set the `repo` permission.
 - Add the access token created in previous step to the repository (that uses this action) as a secret with name `API_TOKEN_GITHUB`.
-- Create the YML file for the action under `.github/workflows`. You can use the sample given below.
+- Create the YML file for the action under `.github/workflows`. You can use the sample given below. Please update `YOUR_GITHUB_USERNAME` and `EMAIL_USED_ON_GITHUB` values.
 
 ## Example YML File To Create A Workflow With This Action
 
