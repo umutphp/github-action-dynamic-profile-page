@@ -23,7 +23,7 @@ Follow the steps;
 on: [push]
 
 jobs:
-  hello_world_job:
+  gadpp_job:
     runs-on: ubuntu-latest
     name: Update GitHub Profile Page
     steps:
