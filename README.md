@@ -4,7 +4,7 @@ A GitHub action to push updates to your special profile repo.
 
 ### Why?
 
-GitHub announced a special repository (github_username/github_username) so that its README.md file will appear on your profile page. People liked it a lot and started using some static pages with fancy texts and images. This GitHub action helps you to add a section that is updated dynamically when you commit a repository that uses this action. A line per repository is added to the section and the lines are ordered from the newest to the oldest. You can see a sample execution in my profile page.
+GitHub announced a special repository (github_username/github_username) so that its README.md file will appear on your profile page. People liked it a lot and started using some static pages with fancy texts and images. This GitHub action helps you to add a section that is updated dynamically when you commit a repository that uses this action. A line per repository is added to the section and the lines are ordered from the newest to the oldest. You can see a sample execution in [my profile page](https://github.com/umutphp).
 
 ![Sample Profile Page](./assets/github_profile_sample.png)
 
