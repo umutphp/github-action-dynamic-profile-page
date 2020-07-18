@@ -20,6 +20,7 @@ Follow the steps;
 ## Example YML File To Create A Workflow With This Action
 
 ```yml
+name: Update GitHub Profile Page
 on: [push]
 
 jobs:
