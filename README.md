@@ -1,4 +1,4 @@
-# Dynamic Profile Page On Github
+# Dynamic Profile Page On GitHub
 
 A GitHub action to push updates to your special profile repo.
 
