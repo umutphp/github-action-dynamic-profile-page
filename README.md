@@ -18,6 +18,7 @@ Follow the steps;
 - Create a personal access token [here](https://github.com/settings/tokens) and set the `repo` permission.
 - Add the access token created in previous step to the repository (that uses this action) as a secret with name `API_TOKEN_GITHUB`.
 - Create the YML file for the action under `.github/workflows`. You can use the sample given below. Please update `YOUR_GITHUB_USERNAME` and `EMAIL_USED_ON_GITHUB` values.
+- Please do not forget to add checkout step before GADPP step in your pipeline.
 
 ## Example YML File To Create A Workflow With This Action
 
