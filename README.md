@@ -12,12 +12,14 @@ Please feel free to fork it or contribute to it.
 
 ## Usage
 
+You can add this action to any repository other than profile repository (special repository). This action will add a line for every repository (that the action is activated) to the README file of the special repository.
+
 Follow the steps;
 - Create your special repository if not exists.
 - Add `<!-- START gadpp -->` add the end of the README.md file of the special repo.
 - Create a personal access token [here](https://github.com/settings/tokens) and set the `repo` permission.
 - Add the access token created in previous step to the repository (that uses this action) as a secret with name `API_TOKEN_GITHUB`.
-- Create the YML file for the action under `.github/workflows`. You can use the sample given below. Please update `YOUR_GITHUB_USERNAME` and `EMAIL_USED_ON_GITHUB` values.
+- Create the YML file for the action under `.github/workflows` of the repository (the one which is not the special repository). You can use the sample given below. Please update `YOUR_GITHUB_USERNAME` and `EMAIL_USED_ON_GITHUB` values.
 - Please do not forget to add checkout step before GADPP step in your pipeline.
 
 ## Example YML File To Create A Workflow With This Action
