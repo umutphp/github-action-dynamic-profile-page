@@ -37,7 +37,7 @@ mv readme_changed.md $README_FILE
 
 sed "/^<!-- START gadpp -->.*/a $INSERTED_LINE" $README_FILE > readme_changed.md
 mv readme_changed.md $README_FILE
-
+git remote set-url origin https://$GITHUB_USERNAME:$API_TOKEN_GITHUB@github.com/$GITHUB_USERNAME/$GITHUB_REPO.git
 git add .
 git commit --message "Update from https://github.com/$GITHUB_REPOSITORY/commit/$GITHUB_SHA"
 git push origin master
