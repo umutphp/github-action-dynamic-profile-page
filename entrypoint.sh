@@ -19,6 +19,8 @@ git config --global user.password "$API_TOKEN_GITHUB"
 
 git clone "https://$GITHUB_USERNAME:$API_TOKEN_GITHUB@github.com/$GITHUB_USERNAME/$GITHUB_REPO.git" "$CLONE_DIR"
 
+echo "Finished cloning"
+
 ls -la "$CLONE_DIR"
 
 cd "$CLONE_DIR"
