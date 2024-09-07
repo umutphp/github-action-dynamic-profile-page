@@ -1,4 +1,4 @@
-name: 'Push updates to your profile page'
+name: 'Push updates to your profile page v1'
 description: 'Create a line for every commit/release on profile page.'
 inputs:
   github-username:
