@@ -10,7 +10,7 @@ echo "Start the job"
 CLONE_DIR=$(mktemp -p . -d)
 FOLDER=$(mktemp -p . -d)
 
-echo "Start clonning"
+echo "Start cloning"
 
 # Setup git
 git config --global user.email "$USER_EMAIL"
