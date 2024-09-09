@@ -49,7 +49,7 @@ jobs:
 
 ### Users using this action 
 
-- [Umut Işık](https://github.com/umutphp)
-- [LuckyAnn](https://github.com/LuckyAnn)
+- [Awesome CLI](https://github.com/umutphp/awesome-cli)
+- [LuckyAnn](https://github.com/LuckyAnn/LuckyAnn)
 
 Please add a issue if you don't see your name on here, And We will add it.
