@@ -49,7 +49,7 @@ jobs:
 
 ### Users using this action 
 
-- [Awesome CLI ](https://github.com/umutphp/awesome-cli)
+- [Awesome CLI](https://github.com/umutphp/awesome-cli)
 - [LuckyAnn](https://github.com/LuckyAnn/LuckyAnn)
 
 Please add a issue if you don't see your name on here, And We will add it.
