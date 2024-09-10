@@ -56,5 +56,8 @@ jobs:
 - [Famous Bugs](https://github.com/umutphp/famous-bugs)
 - [PHP Docker Images for CLI](https://github.com/umutphp/php-docker-images-for-cli)
 - [Vvroul](https://github.com/vvroul/vvroul)
+- [Waka Box](https://github.com/joriewong/waka-box)
+- [Hacker Laws WC](https://github.com/nlchitnis/hacker-laws-wc)
+- [C Programming](https://github.com/Suvraneel/C-programming)
 
 Please add a issue if you don't see your name on here, And We will add it.
