@@ -36,7 +36,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: GADPP
-        uses: umutphp/github-action-dynamic-profile-page@v4
+        uses: umutphp/github-action-dynamic-profile-page@v5
         id: gadpp
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
@@ -50,6 +50,8 @@ jobs:
 ### Users using this action 
 
 - [Awesome CLI](https://github.com/umutphp/awesome-cli)
-- [LuckyAnn](https://github.com/LuckyAnn/LuckyAnn)
+- [Hacker Laws TR](https://github.com/umutphp/hacker-laws-tr)
+- [LuckKAnn](https://github.com/LuckKAnn/LuckKAnn)
+- [Github Stats](https://github.com/umutphp/github-stats)
 
 Please add a issue if you don't see your name on here, And We will add it.
