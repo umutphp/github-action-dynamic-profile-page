@@ -53,5 +53,8 @@ jobs:
 - [Hacker Laws TR](https://github.com/umutphp/hacker-laws-tr)
 - [LuckKAnn](https://github.com/LuckKAnn/LuckKAnn)
 - [Github Stats](https://github.com/umutphp/github-stats)
+- [Famous Bugs](https://github.com/umutphp/famous-bugs)
+- [PHP Docker Images for CLI](https://github.com/umutphp/php-docker-images-for-cli)
+- [Vvroul](https://github.com/vvroul/vvroul)
 
 Please add a issue if you don't see your name on here, And We will add it.
