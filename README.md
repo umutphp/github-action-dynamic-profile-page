@@ -59,6 +59,8 @@ jobs:
 - [Waka Box](https://github.com/joriewong/waka-box)
 - [Hacker Laws WC](https://github.com/nlchitnis/hacker-laws-wc)
 - [Push](https://github.com/nlchitnis/push)
+- [Diablo Music App](https://github.com/Suvraneel/diablo-music-app)
+- [Diablo Music](https://github.com/Suvraneel/diablo-music)
 - [C Programming](https://github.com/Suvraneel/C-programming)
 - [Sandep-FED](https://github.com/Sandeep-FED)
 - [OhMyZsh](https://github.com/Justgoncaa/ohmyzsh)
