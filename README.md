@@ -61,6 +61,8 @@ jobs:
 - [Diablo Music](https://github.com/Suvraneel/diablo-music)
 - [C Programming](https://github.com/Suvraneel/C-programming)
 - [Sandep-FED](https://github.com/Sandeep-FED)
-- [OhMyZsh](https://github.com/Justgoncaa/ohmyzsh)
+- [7-TE](https://github.com/7-TE/7-TE)
+- [Go Go Richie](https://github.com/gogorichie/gogorichie)
+- [TheRakeshPurohit](https://github.com/TheRakeshPurohit/awesome-cli)
 
 Please add a issue if you don't see your name on here, And We will add it.
