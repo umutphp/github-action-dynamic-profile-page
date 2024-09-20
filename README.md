@@ -64,6 +64,8 @@ jobs:
 - [B Buck Offical](https://github.com/david3239294/BBUCKOffical)
 - [Baby Buck](https://github.com/david329294/babybuck)
 - [Sandep-FED](https://github.com/Sandeep-FED)
-- [OhMyZsh](https://github.com/Justgoncaa/ohmyzsh)
+- [7-TE](https://github.com/7-TE/7-TE)
+- [Go Go Richie](https://github.com/gogorichie/gogorichie)
+- [TheRakeshPurohit](https://github.com/TheRakeshPurohit/awesome-cli)
 
 Please add a issue if you don't see your name on here, And We will add it.
