@@ -67,5 +67,11 @@ jobs:
 - [7-TE](https://github.com/7-TE/7-TE)
 - [Go Go Richie](https://github.com/gogorichie/gogorichie)
 - [TheRakeshPurohit](https://github.com/TheRakeshPurohit/awesome-cli)
+- [Dotfiles](https://github.com/dat-adi/dotfiles)
+- [Tiny App](https://github.com/dat-adi/tinyApps)
+- [Time Tabler](https://github.com/dat-adi/time-tabler)
+- [Eisen Tickets](https://github.com/dat-adi/eisen-tickets)
+
+This is the Last Update.
 
 Please add a issue if you don't see your name on here, And We will add it.
