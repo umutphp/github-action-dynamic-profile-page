@@ -72,6 +72,4 @@ jobs:
 - [Time Tabler](https://github.com/dat-adi/time-tabler)
 - [Eisen Tickets](https://github.com/dat-adi/eisen-tickets)
 
-This is the Last Update.
-
 Please add a issue if you don't see your name on here, And We will add it.
